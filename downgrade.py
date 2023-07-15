@@ -57,7 +57,7 @@ def run_commands():
     # Check device connectivity again
     cmd = "adb devices"
     output = run_adb_command(cmd)
-    print("Connected devices after reboot - Kiểm tra xem thiết bị kết nối chưa:")
+    print("Connected devices after reboot - Kiểm tra kết nối:")
     print(output)
 
     # Install the APK
